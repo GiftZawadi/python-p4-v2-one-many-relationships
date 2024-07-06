@@ -11,7 +11,6 @@ metadata = MetaData(
 
 db = SQLAlchemy(metadata=metadata)
 
-
 class Employee(db.Model):
     __tablename__ = "employees"
 
